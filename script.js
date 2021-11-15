@@ -9,7 +9,7 @@ function Contador(){
     
     let max = texto.length;
 
-    console.log(texto.length)
+    console.log(max)
     document.getElementById('cantidad').InnerHTML = `${max}/140`;
 }
 
