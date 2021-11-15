@@ -5,11 +5,11 @@ const cantidad = document.getElementById('cantidad');
 
 
 function Contador(){
-   let texto = document.getElementById('comentario');
-    let caracteres = texto.getAttribute('maxlength');
-    const max = caracteres.length;
+    let texto = comentario.getAttribute('maxlength');
+    
+    let max = texto.length;
 
-   
-    cantidad.InnerHTML = `${max}/140`;
+    console.log(texto.length)
+    document.getElementById('cantidad').InnerHTML = `${max}/140`;
 }
 
