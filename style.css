@@ -1,0 +1,16 @@
+.fondo{
+    background-image: url("img/wp3782995.jpg");
+    background-size: cover;
+}
+
+body{
+    background-color: rgb(107, 101, 101);
+}
+
+.texto-lado h1 {
+    color: honeydew;
+    bottom: 150px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 60px;
+    text-shadow: 4px 5px 2px rgb(0, 0, 0);
+}
