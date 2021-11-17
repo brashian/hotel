@@ -1,15 +1,14 @@
 const comentario = document.getElementById('comentario');
-comentario.addEventListener('input',Contador);
+comentario.addEventListener('keyup',Contador);
 
 const cantidad = document.getElementById('cantidad');
-
+let valor;
+let sumatoria;
 
 function Contador(){
-    let texto = comentario.getAttribute('maxlength');
+    let valor = document.getElementById('comentario').value.length;
+    let sumatoria= 0 + parseInt(valor);
     
-    let max = texto.length;
-
-    console.log(max)
-    document.getElementById('cantidad').InnerHTML = `${max}/140`;
+    document.getElementById('cantidad').innerHTML = `${sumatoria}/140`;
 }
 
